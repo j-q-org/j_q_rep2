@@ -5,16 +5,16 @@ public class Test1 {
 	public static void main(String[] args) {
 		
 		try {
-			//1 ¼ÓÔØÇı¶¯
+			//1 åŠ è½½é©±åŠ¨
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			//2 »ñµÃÁ¬½Ó
+			//2 è·å¾—è¿æ¥
 			String url = "jdbc:oracle:thin:@127.0.0.1:1521:ORCL";
-			  // Á¬½Óµ½127.0.0.1 ÒÔ1521¶Ë¿ÚÁ¬ÉÏoracle£¬·ÃÎÊÆäÖĞorclÊı¾İ¿â
+			  // è¿æ¥åˆ°127.0.0.1 ä»¥1521ç«¯å£è¿ä¸Šoracleï¼Œè®¿é—®å…¶ä¸­orclæ•°æ®åº“
 			Connection cn = DriverManager.getConnection(url, "scott", "tiger");
 			System.out.println(cn);
 			
-			//ËùÓĞÊı¾İ¿âÁ¬½Ó²½Öè¶¼ÊÇÏàÍ¬µÄ£¬Çı¶¯ÀàÃûÓëÁ¬½ÓurlµÄĞ´·¨²»Í¬
-			//3 Êı¾İ¿â²Ù×÷.......
+			//æ‰€æœ‰æ•°æ®åº“è¿æ¥æ­¥éª¤éƒ½æ˜¯ç›¸åŒçš„ï¼Œé©±åŠ¨ç±»åä¸è¿æ¥urlçš„å†™æ³•ä¸åŒ
+			//3 æ•°æ®åº“æ“ä½œ.......123123123
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
