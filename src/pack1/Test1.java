@@ -10,7 +10,7 @@ public class Test1 {
 			Connection cn = DriverManager.getConnection(url, "scott", "tiger");
 			System.out.println(cn);
 			
-			System.out.println("123123");
+			System.out.println("123123ertert");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
